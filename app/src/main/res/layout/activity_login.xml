@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSpalshBack"
+    tools:context=".LoginActivity">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/ivYesPlus"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:scaleX="2"-->
+        <!--android:scaleY="2"-->
+        <!--app:srcCompat="@mipmap/ic_yes_plus" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/ivGuruji"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:scaleX="2"-->
+        <!--android:scaleY="2"-->
+        <!--app:srcCompat="@mipmap/ic_guruji_foreground" />-->
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivGuruji"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="@string/etUsernameHint"
+        android:inputType="textPersonName"
+        android:paddingBottom="12dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#a2a3a1"
+        android:textColorHint="#4d4f4c"
+        android:textColorLink="#4d4f4c"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etUsername"
+        android:layout_below="@+id/etUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="@string/etPasswordHint"
+        android:inputType="textPassword"
+        android:paddingBottom="12dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#a2a3a1"
+        android:textColorHint="#4d4f4c"
+        android:textColorLink="#4d4f4c"
+        android:textCursorDrawable="@null" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvForgotPassword"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignStart="@+id/etPassword"-->
+        <!--android:layout_below="@id/etPassword"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:text="@string/tvForgotPassword"-->
+        <!--android:textColor="#a2a3a1" />-->
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etPassword"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/box_shape"
+        android:text="@string/btnSignUp"
+        android:textColor="#a2a3a1" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etPassword"
+        android:layout_alignTop="@+id/btnSignUp"
+        android:background="@drawable/box_shape"
+        android:text="@string/btnLogin"
+        android:textColor="#a2a3a1" />
+</RelativeLayout>

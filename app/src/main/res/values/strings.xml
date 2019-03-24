@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PlanTree</string>
+    <string name="title_home">Events</string>
+    <string name="title_dashboard">Quotes</string>
+    <string name="title_notifications">Settings</string>
+    <string name="etUsernameHint">Username</string>
+    <string name="etPasswordHint">Password</string>
+    <string name="btnSignUp">Sign Up?</string>
+    <string name="btnLogin">Login</string>
+    <string name="tvForgotPassword"><u>Forgot Password?</u></string>
+    <string name="tvQuickSignUpLabel">Quick Sign-Up</string>
+    <string name="tvManualSetUpLabel">Manual Setup</string>
+    <string name="etFirstNameHint">First Name</string>
+    <string name="etLastNameHint">Last Name</string>
+    <string name="etEmailHint">Email</string>
+    <string name="tvHeadNewEventLabel">Submit Your Concern</string>
+    <string name="etEventTitleHint">Enter Event Title</string>
+    <string name="etEventDescriptionHint">Enter Description here...</string>
+    <string name="tvAuthorLabel">Author</string>
+    <string name="tvQuoteLabel">Quote</string>
+</resources>

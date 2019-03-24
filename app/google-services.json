@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "832447363619",
+    "firebase_url": "https://plantree-1f0fb.firebaseio.com",
+    "project_id": "plantree-1f0fb",
+    "storage_bucket": "plantree-1f0fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832447363619:android:33873733814906a9",
+        "android_client_info": {
+          "package_name": "com.ideas2app.plantree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832447363619-b745g8uhtuluoieso40q7hqda54jfvg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ideas2app.plantree",
+            "certificate_hash": "81c8a26b55048ae2fa930c40830f61210f4b68de"
+          }
+        },
+        {
+          "client_id": "832447363619-21egtsrk7gl67ld356h6j6kk7g9glhso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfCR384DuEB-CXZIcXUVQ9u9LLgMPiq10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832447363619-21egtsrk7gl67ld356h6j6kk7g9glhso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSpalshBack"
+    tools:context=".SignUpSelectActivity">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/ivYesPlus"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:scaleX="2"-->
+        <!--android:scaleY="2"-->
+        <!--app:srcCompat="@mipmap/ic_yes_plus" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/ivGuruji"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/ivYesPlus"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:scaleX="2"-->
+        <!--android:scaleY="2"-->
+        <!--app:srcCompat="@mipmap/ic_guruji_foreground" />-->
+
+    <TextView
+        android:id="@+id/tvQuickSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivGuruji"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/box_shape"
+        android:paddingBottom="15dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/tvQuickSignUpLabel"
+        android:textColor="#a2a3a1"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:onClick="onClickQuickSignUp"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/tvManualSetUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvQuickSignUp"
+        android:layout_below="@+id/tvQuickSignUp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/box_shape"
+        android:paddingBottom="15dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/tvManualSetUpLabel"
+        android:textColor="#a2a3a1"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:onClick="onClickManualSetUp"
+        android:clickable="true"/>
+</RelativeLayout>

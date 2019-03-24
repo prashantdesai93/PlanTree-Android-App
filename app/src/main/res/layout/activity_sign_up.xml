@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSpalshBack"
+    tools:context=".SignUpActivity">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/ivYesPlus"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:scaleX="2"-->
+        <!--android:scaleY="2"-->
+        <!--app:srcCompat="@mipmap/ic_yes_plus" />-->
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="@string/etFirstNameHint"
+        android:inputType="textPersonName"
+        android:paddingBottom="12dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#a2a3a1"
+        android:textColorHint="#4d4f4c"
+        android:textColorLink="#4d4f4c"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFirstName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="@string/etLastNameHint"
+        android:inputType="textPersonName"
+        android:paddingBottom="12dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#a2a3a1"
+        android:textColorHint="#4d4f4c"
+        android:textColorLink="#4d4f4c"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etLastName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="@string/etEmailHint"
+        android:inputType="textPersonName"
+        android:paddingBottom="12dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#a2a3a1"
+        android:textColorHint="#4d4f4c"
+        android:textColorLink="#4d4f4c"
+        android:textCursorDrawable="@null" />
+
+    <!--<Spinner
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etEmail"
+        android:layout_below="@+id/etEmail"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box_shape"
+        android:spinnerMode="dropdown"
+        android:visibility="gone" />-->
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="Birth Date"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="date"
+        android:paddingBottom="12dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#a2a3a1"
+        android:textColorHint="#4d4f4c"
+        android:textColorLink="#4d4f4c"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/etPasswordSignUp1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etFirstName"
+        android:layout_below="@+id/etDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="@string/etPasswordHint"
+        android:inputType="textPassword"
+        android:paddingBottom="12dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#a2a3a1"
+        android:textColorHint="#4d4f4c"
+        android:textColorLink="#4d4f4c"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/etPasswordSignUp2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etFirstName"
+        android:layout_below="@+id/etPasswordSignUp1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/box_shape"
+        android:ems="10"
+        android:hint="@string/etPasswordHint"
+        android:inputType="textPassword"
+        android:paddingBottom="12dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#a2a3a1"
+        android:textColorHint="#4d4f4c"
+        android:textColorLink="#4d4f4c"
+        android:textCursorDrawable="@null" />
+
+    <Button
+        android:id="@+id/btnSignUpSignScreen"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etPasswordSignUp2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/box_shape"
+        android:text="Sign Up"
+        android:textColor="#a2a3a1" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/etPasswordSignUp2"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/box_shape"
+        android:text="Cancel"
+        android:textColor="#a2a3a1" />
+
+</RelativeLayout>
